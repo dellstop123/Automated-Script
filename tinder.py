@@ -25,10 +25,10 @@ class TinderBot(unittest.TestCase):
         driver.switch_to_window(driver.window_handles[1])
 
         email_in = driver.find_element_by_xpath('//*[@id="email"]')
-        email_in.send_keys("guneet.singh.710")
+        email_in.send_keys("abcd")
 
         pw_in = driver.find_element_by_xpath('//*[@id="pass"]')
-        pw_in.send_keys("8492892832")
+        pw_in.send_keys("xyz")
 
         login_btn = driver.find_element_by_xpath('//*[@id="u_0_0"]')
         login_btn.click()
